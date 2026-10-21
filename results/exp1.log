@@ -1,0 +1,16 @@
+============================================================
+Experiment 1: Quantile-graph transition topology
+  T=10000, Q=10, k=1, N_real=100
+  Beta values: [-1.0, -0.5, 0.0, 0.5, 1.0, 2.0]
+============================================================
+  beta=-1.0 ... H=0.010 (fgn), primary_diag=0.667, secondary_diag=1.705
+  beta=-0.5 ... H=0.250 (fgn), primary_diag=0.771, secondary_diag=1.352
+  beta=+0.0 ... H=0.500 (fgn), primary_diag=0.996, secondary_diag=1.001
+  beta=+0.5 ... H=0.750 (fgn), primary_diag=1.545, secondary_diag=0.705
+  beta=+1.0 ... H=0.010 (fbm), primary_diag=1.148, secondary_diag=0.872
+  beta=+2.0 ... H=0.500 (fbm), primary_diag=9.165, secondary_diag=0.109
+  Experiment 1 completed in 95.5s
+  Saved: results/exp1_transition_heatmaps.png
+  Saved: results/exp1_topology_diagnostics.png
+  Saved: results/exp1_diagnostics.json
+Experiment 1 complete.

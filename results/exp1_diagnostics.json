@@ -1,0 +1,56 @@
+[
+  {
+    "beta": -1.0,
+    "H": 0.01,
+    "process_type": "fgn",
+    "primary_diag_mass": 0.666953143143143,
+    "secondary_diag_mass": 1.7045583783783786,
+    "near_primary_mass_b3": 4.493829409409409,
+    "mean_jump": 4.151347395395396
+  },
+  {
+    "beta": -0.5,
+    "H": 0.25,
+    "process_type": "fgn",
+    "primary_diag_mass": 0.7712256856856857,
+    "secondary_diag_mass": 1.3521498998999002,
+    "near_primary_mass_b3": 4.985352712712713,
+    "mean_jump": 3.8163761471471473
+  },
+  {
+    "beta": 0.0,
+    "H": 0.5,
+    "process_type": "fgn",
+    "primary_diag_mass": 0.9959985085085086,
+    "secondary_diag_mass": 1.0009899399399398,
+    "near_primary_mass_b3": 5.798846966966966,
+    "mean_jump": 3.3017240090090083
+  },
+  {
+    "beta": 0.5,
+    "H": 0.75,
+    "process_type": "fgn",
+    "primary_diag_mass": 1.5453031831831834,
+    "secondary_diag_mass": 0.7051962862862863,
+    "near_primary_mass_b3": 7.223118058058059,
+    "mean_jump": 2.4795233783783783
+  },
+  {
+    "beta": 1.0,
+    "H": 0.01,
+    "process_type": "fbm",
+    "primary_diag_mass": 1.147816116116116,
+    "secondary_diag_mass": 0.8720372872872872,
+    "near_primary_mass_b3": 6.252207027027027,
+    "mean_jump": 3.0294195425425423
+  },
+  {
+    "beta": 2.0,
+    "H": 0.5,
+    "process_type": "fbm",
+    "primary_diag_mass": 9.16490189189189,
+    "secondary_diag_mass": 0.10872917917917914,
+    "near_primary_mass_b3": 9.999999999999998,
+    "mean_jump": 0.08351381081081079
+  }
+]

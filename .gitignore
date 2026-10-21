@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Secrets
+.env
+
+# Data downloads (never committed)
+data/*.csv
+data/*.parquet
+data/*.h5
+data/*.hdf5
+data/*.pkl
+
+# Temp / exploratory API dumps
+/tmp/
+*.log
+# But keep experiment run logs in results/
+!results/*.log

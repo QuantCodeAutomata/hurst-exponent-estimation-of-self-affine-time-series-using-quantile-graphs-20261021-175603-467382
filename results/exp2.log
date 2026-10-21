@@ -1,0 +1,50 @@
+============================================================
+Experiment 2: Hurst estimation from QG mean-jump scaling (fBm)
+  T=10000, Q=10, N_real=100
+  n_walks=100, walk_length=200
+============================================================
+
+-- Fig. 3 beta values --
+  Lags: [   1    2    3    4    6    9   13   18   26   38   55   78  113  162
+  234  336  483  695 1000]
+  beta=1.0 ... H_exact=0.010, H_QG=0.011±0.002, |err|=0.0012
+  beta=1.5 ... H_exact=0.250, H_QG=0.248±0.024, |err|=0.0020
+  beta=2.0 ... H_exact=0.500, H_QG=0.447±0.100, |err|=0.0532
+  beta=2.5 ... H_exact=0.750, H_QG=0.570±0.197, |err|=0.1802
+  beta=3.0 ... H_exact=0.990, H_QG=0.473±0.152, |err|=0.5171
+  fig3 completed in 90.5s
+  Saved: results/exp2_delta_curves_fig3.png
+  Saved: results/exp2_scatter_fig3.png
+  beta=1.0: H_exact=0.010, H_QG=0.011, |err|=0.0012
+  beta=1.5: H_exact=0.250, H_QG=0.248, |err|=0.0020
+  beta=2.0: H_exact=0.500, H_QG=0.447, |err|=0.0532
+  beta=2.5: H_exact=0.750, H_QG=0.570, |err|=0.1802
+  beta=3.0: H_exact=0.990, H_QG=0.473, |err|=0.5171
+  Saved: results/exp2_results_fig3.json
+
+-- Fig. 4 extended beta grid --
+  Lags: [   1    2    3    4    6    9   13   18   26   38   55   78  113  162
+  234  336  483  695 1000]
+  beta=1.2 ... H_exact=0.100, H_QG=0.105±0.010, |err|=0.0054
+  beta=1.4 ... H_exact=0.200, H_QG=0.202±0.016, |err|=0.0019
+  beta=1.6 ... H_exact=0.300, H_QG=0.294±0.032, |err|=0.0060
+  beta=1.8 ... H_exact=0.400, H_QG=0.377±0.047, |err|=0.0231
+  beta=2.0 ... H_exact=0.500, H_QG=0.447±0.100, |err|=0.0532
+  beta=2.2 ... H_exact=0.600, H_QG=0.508±0.123, |err|=0.0920
+  beta=2.4 ... H_exact=0.700, H_QG=0.549±0.177, |err|=0.1511
+  beta=2.6 ... H_exact=0.800, H_QG=0.568±0.220, |err|=0.2320
+  beta=2.8 ... H_exact=0.900, H_QG=0.538±0.249, |err|=0.3618
+  fig4 completed in 172.1s
+  Saved: results/exp2_delta_curves_fig4.png
+  Saved: results/exp2_scatter_fig4.png
+  beta=1.2: H_exact=0.100, H_QG=0.105, |err|=0.0054
+  beta=1.4: H_exact=0.200, H_QG=0.202, |err|=0.0019
+  beta=1.6: H_exact=0.300, H_QG=0.294, |err|=0.0060
+  beta=1.8: H_exact=0.400, H_QG=0.377, |err|=0.0231
+  beta=2.0: H_exact=0.500, H_QG=0.447, |err|=0.0532
+  beta=2.2: H_exact=0.600, H_QG=0.508, |err|=0.0920
+  beta=2.4: H_exact=0.700, H_QG=0.549, |err|=0.1511
+  beta=2.6: H_exact=0.800, H_QG=0.568, |err|=0.2320
+  beta=2.8: H_exact=0.900, H_QG=0.538, |err|=0.3618
+  Saved: results/exp2_results_fig4.json
+Experiment 2 complete.
